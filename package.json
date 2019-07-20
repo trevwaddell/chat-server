@@ -1,0 +1,16 @@
+{
+  "name": "bi-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.8",
+    "ws": "^7.1.1"
+  },
+  "scripts": {
+    "dev": "nodemon ./server/index.js"
+  }
+}
