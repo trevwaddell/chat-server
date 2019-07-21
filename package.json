@@ -11,6 +11,7 @@
     "ws": "^7.1.1"
   },
   "scripts": {
-    "dev": "nodemon ./server/index.js"
+    "dev": "nodemon ./server/index.js",
+    "start": "node server.js"
   }
 }

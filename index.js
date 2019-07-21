@@ -2,7 +2,9 @@ const WebSocket = require("ws");
 const WebSocketServer = WebSocket.Server;
 const uuid = require("node-uuid");
 
-const wss = new WebSocketServer({ port: 8181 });
+const port = process.env.PORT || 8181;
+
+const wss = new WebSocketServer({ port });
 
 const createClient = (id, ws, nickname) => ({ id, ws, nickname });
 
